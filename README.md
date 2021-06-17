@@ -50,7 +50,7 @@ function calculator(val1,val2)
 
 
  //Q4
-/*
+
 var a  = 5
 var b = 10
 
@@ -63,12 +63,12 @@ if(a == 5){
 console.log(a)
 console.log(b)
 //RESPOSTA: 4,1,5,1
-*/
+
 
 
 
 //Q5
-/*
+
 function multiplicar(numero)
 {
      for(var i = 1; i < 10; i++)
@@ -77,4 +77,4 @@ function multiplicar(numero)
      }
 }
 console.log(multiplicar(2))
-*/
+
