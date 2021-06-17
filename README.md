@@ -36,9 +36,18 @@ var someFN = function(numero)
     console.log("Third call", counter(5))
 
 //Q3 
-function calculator(n1, n2) {
-  return callback => callback(n1, n2)
-}
+function calculator(val1,val2)
+    {
+        return function(callback)
+        {
+            return callback(val1,val2);
+        };
+    }
+
+    var sum = calculator(1,2);
+
+    sum(function (val1, val2) { return val1 + val2 });
+
 
  //Q4
 /*
